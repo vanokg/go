@@ -13,7 +13,6 @@ func main() {
 		log.Fatal("Ошибка:", err)
 	}
 
-	// Загружаем в билдер окно из файла Glade
 	err = b.AddFromFile("main.glade")
 	if err != nil {
 		log.Fatal("Ошибка:", err)
