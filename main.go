@@ -23,7 +23,6 @@ func main() {
 		log.Fatal("Ошибка:", err)
 	}
 
-	// и соединяем с сигналом "destroy" чтобы можно было закрыть
 	// приложение при закрытии окна
 	win := obj.(*gtk.Window)
 	win.Connect("destroy", func() {
