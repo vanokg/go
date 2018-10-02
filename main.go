@@ -18,7 +18,6 @@ func main() {
 		log.Fatal("Ошибка:", err)
 	}
 
-	// Получаем объект главного окна по ID
 	obj, err := b.GetObject("window_main")
 	if err != nil {
 		log.Fatal("Ошибка:", err)
