@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	// Инициализируем GTK.
 	gtk.Init(nil)
 
 	// Создаём билдер
