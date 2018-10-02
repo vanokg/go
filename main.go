@@ -23,7 +23,6 @@ func main() {
 		log.Fatal("Ошибка:", err)
 	}
 
-	// приложение при закрытии окна
 	win := obj.(*gtk.Window)
 	win.Connect("destroy", func() {
 		gtk.MainQuit()
