@@ -8,7 +8,6 @@ import (
 func main() {
 	gtk.Init(nil)
 
-	// Создаём билдер
 	b, err := gtk.BuilderNew()
 	if err != nil {
 		log.Fatal("Ошибка:", err)
