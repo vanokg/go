@@ -28,7 +28,6 @@ func main() {
 		gtk.MainQuit()
 	})
 
-	// Получаем поле ввода
 	obj, _ = b.GetObject("entry_1")
 	entry1 := obj.(*gtk.Entry)
 
